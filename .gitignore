@@ -31,3 +31,6 @@ Image
 
 last_test_role.png
 last_test_weapon.png
+
+.devcontainer/
+priv/
