@@ -34,3 +34,5 @@ last_test_weapon.png
 
 .devcontainer/
 priv/
+target
+native/*/target

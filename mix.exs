@@ -34,16 +34,19 @@ defmodule AssetTextureRender.MixProject do
     [
       maintainers: ["KhalilWang"],
       name: :asset_texture_render,
+      licenses: ["MIT"],
       description: "an example for rustler and rustler_precompiled elixir otp app used for render texture",
       files: ["lib",
               "native",
               "checksum-*.exs",
-              "priv/.gitkeep",
               "mix.exs",
               ".formatter.exs",
               "README*",
               "LICENSE*"
               ],
+      exclude_patterns: [
+        "target"
+      ],
       links: %{"GitHub" => @source_url}
     ]
   end
