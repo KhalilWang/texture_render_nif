@@ -7,7 +7,7 @@ defmodule AssetTextureRender.Native do
     otp_app: :asset_texture_render,
     crate: :texture_render,
     base_url: "#{github_url}/releases/download/v#{version}",
-    force_build: System.get_env("FORCE_SORTED_SET_BUILD") in ["1", "true"],
+    force_build: System.get_env("FORCE_ASSET_TEXTURE_RENDER_BUILD") in ["1", "true"],
     targets: ~w(arm-unknown-linux-gnueabihf aarch64-unknown-linux-gnu aarch64-unknown-linux-musl aarch64-apple-darwin x86_64-apple-darwin x86_64-unknown-linux-gnu x86_64-unknown-linux-musl x86_64-pc-windows-gnu x86_64-pc-windows-msvc),
     version: version
 

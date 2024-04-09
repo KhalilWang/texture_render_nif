@@ -539,4 +539,4 @@ fn get_rgba_color_01(color_255:image::Rgba<u8>)->[f32;4]
     return out_color;
 }
 
-rustler::init!("Elixir.AssetTextureRender", [role_texture_blend, weapon_texture_blend]);
+rustler::init!("Elixir.AssetTextureRender.Native", [role_texture_blend, weapon_texture_blend]);
